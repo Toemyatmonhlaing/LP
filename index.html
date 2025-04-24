@@ -2,18 +2,167 @@
 <html lang="ja">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>レスポンシブ画像</title>
-  <h1>旅行</h1>
-  <link rel="stylesheet" href="style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>AnotherADdress 紹介</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+New:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Zen Kaku Gothic New', sans-serif;
+      background-color: #fff0f5;
+      color: #333;
+    }
+
+    .navbar {
+      background-color: #d673e3;
+    }
+
+    .navbar-brand {
+      font-weight: bold;
+      font-size: 1.5rem;
+    }
+
+    .hero {
+      background: linear-gradient(135deg, #f9d0e5, #fceff9);
+      padding: 4rem 2rem;
+      text-align: center;
+    }
+
+    .hero h1 {
+      font-size: 2.5rem;
+      font-weight: bold;
+      color: #a149b3;
+    }
+
+    .hero p {
+      font-size: 1.2rem;
+      color: #555;
+    }
+
+    .btn-main {
+      background-color: #c471ed;
+      border: none;
+      color: white;
+      padding: 0.8rem 1.5rem;
+      font-weight: bold;
+      border-radius: 30px;
+      transition: 0.3s;
+    }
+
+    .btn-main:hover {
+      background-color: #a24bc6;
+    }
+
+    .section-card {
+      background: white;
+      border-radius: 1rem;
+      box-shadow: 0 6px 20px rgba(0, 0, 0, 0.06);
+      padding: 2rem;
+      margin-bottom: 2rem;
+      transition: transform 0.3s;
+    }
+
+    .section-card:hover {
+      transform: translateY(-5px);
+    }
+
+    .highlight {
+      color: #c471ed;
+    }
+
+    footer {
+      background-color: #333;
+      color: white;
+      padding: 2rem 0;
+      text-align: center;
+    }
+  </style>
 </head>
 <body>
-  <div class="image-container">
-    <img src="tmm.png" alt="サンプル画像">
-  </div>
-  <a href="https://px.a8.net/svt/ejp?a8mat=4534K3+3257OY+5OEM+5YRHE" rel="nofollow">【Oooh（ウー）】</a>
 
-  <img border="0" width="1" height="1" src="https://www16.a8.net/0.gif?a8mat=4534K3+3257OY+5OEM+5YRHE" alt="">
+  <!-- Navbar -->
+  <nav class="navbar navbar-dark">
+    <div class="container">
+      <a class="navbar-brand" href="#">AnotherADdress</a>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="container">
+      <h1>あなたの毎日を変える、服のサブスク</h1>
+      <p>AnotherADdress（アナザーアドレス）</p>
+      <a href="https://www.anotheraddress.jp/" target="_blank" class="btn btn-main mt-3">公式サイトを見る</a>
+    </div>
+  </section>
+
+  <!-- メイン画像 -->
+  <section class="text-center my-5">
+    <div class="container">
+      <!-- 自分で作成した画像を使う例 -->
+      <img src="tmmh23.png" class="img-fluid rounded shadow mb-4" alt="">
+    </div>
+  </section>
+
+  <!-- コンテンツセクション -->
+  <div class="container my-5">
+
+    <!-- 悩み -->
+    <div class="section-card">
+      <h3 class="highlight mb-3">👗 こんなお悩みありませんか？</h3>
+      <ul class="list-group list-group-flush">
+        <li class="list-group-item">・いつも同じ服ばかり</li>
+        <li class="list-group-item">・クローゼットがいっぱい</li>
+        <li class="list-group-item">・服は買うより借りたい</li>
+      </ul>
+    </div>
+
+    <!-- 解決 -->
+    <div class="section-card">
+      <h3 class="highlight mb-3">✨ 解決するのが AnotherADdress！</h3>
+      <p>月額制でブランド服がレンタルできるサービスです。</p>
+      <ul>
+        <li>👚 好きな服を自由に選べる</li>
+        <li>🧺 クリーニング不要、返却も簡単</li>
+        <li>🤖 AIとプロの診断で似合う服が見つかる</li>
+      </ul>
+    </div>
+
+    <!-- なぜAnotherADdressか -->
+    <div class="section-card">
+      <h3 class="highlight mb-3">💡 なぜ AnotherADdress？</h3>
+      <p>百貨店発の本格ブランドで安心。<br>環境にもやさしく、スマートにおしゃれが楽しめます。</p>
+    </div>
+
+    <!-- 写真付きセクション -->
+    <div class="section-card">
+      <div class="row align-items-center">
+        <div class="col-md-6 mb-3 mb-md-0">
+          <img src="6.png" class="img-fluid rounded shadow" alt="">
+        </div>
+        <div class="col-md-6">
+          <h4 class="highlight">ブランド服がもっと身近に</h4>
+          <p>AnotherADdressでは、百貨店ブランドの最新ファッションを気軽にレンタルできます。プロが選ぶ上質なスタイルを、あなたの毎日に。</p>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- CTAセクション -->
+  <section class="text-center py-5" style="background-color: #f5d0f5;">
+    <div class="container">
+      <h2 class="mb-4">🚀 今すぐスタート！</h2>
+      <a href="https://www.anotheraddress.jp/" class="btn btn-main btn-lg" style="width: 200px;">AnotherADdressを見てみる</a>
+    </div>
+  </section>
+
+  <!-- フッター -->
+  <footer>
+    &copy; 2025 AnotherADdress 紹介ページ
+  </footer>
 
 </body>
 </html>
+
+

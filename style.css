@@ -1,14 +1,65 @@
-    /* 画像の親要素があれば幅100%に */
-.image-container {
-    max-width: 100%;
-    height: auto;
-    padding: 10px;
+/* style.css */
+
+body {
+    font-family: 'Helvetica Neue', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background: #fdfdfd;
+    color: #333;
   }
   
-  /* 画像自体も幅100%で縮小・拡大に対応 */
-  .image-container img {
-    width: 100%;
-    height: auto;
-    display: block;
+  header {
+    background-color: #f8f1f1;
+    text-align: center;
+    padding: 2rem 1rem;
+  }
+  
+  header h1 {
+    margin: 0;
+    font-size: 2rem;
+    color: #b23b8c;
+  }
+  
+  section {
+    padding: 2rem 1rem;
+    max-width: 800px;
+    margin: auto;
+  }
+  
+  h2 {
+    color: #b23b8c;
+    margin-bottom: 1rem;
+  }
+  
+  ul {
+    list-style: disc;
+    padding-left: 1.5rem;
+  }
+  
+  .cta {
+    text-align: center;
+    background: #b23b8c;
+    color: #fff;
+    padding: 2rem 1rem;
+  }
+  
+  .cta .button {
+    display: inline-block;
+    background: #fff;
+    color: #b23b8c;
+    padding: 0.75rem 1.5rem;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 1rem;
+  }
+  
+  footer {
+    text-align: center;
+    font-size: 0.9rem;
+    padding: 1rem;
+    background-color: #f0f0f0;
+    color: #666;
   }
   
